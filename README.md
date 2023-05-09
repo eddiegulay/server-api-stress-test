@@ -16,3 +16,5 @@ payload = {"key1": "value1", "key2": "value2"}
 num_requests = 10
 parallel = True  # set to True to send requests in parallel, False to send requests linearly
 ```
+
+For Time test ⚠️ no remarks the calculations are not fully accurate

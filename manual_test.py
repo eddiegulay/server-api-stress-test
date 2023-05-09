@@ -2,9 +2,9 @@ import requests
 import time
 
 # Set the parameters
-endpoint = "http://example.com/api"
-payload = {"key1": "value1", "key2": "value2"}
-num_requests = 10
+endpoint = "http://127.0.0.1:5000/api/home"
+payload = {"uid":1515}
+num_requests = 100
 parallel = True  # set to True to send requests in parallel, False to send requests linearly
 
 # Send requests
